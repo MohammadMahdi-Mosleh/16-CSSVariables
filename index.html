@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="settings-panel">
+        <!-- ********************** -->
+        <!------ PANEL SETTINGS ------>
+        <!-- ********************** -->
+        <h1>update CSS Variables with <span class="JS" style="font-size: 3rem;">JS</span></h1>
+
+        <div class="setting">
+          <label for="size">size:</label>
+          <input type="range" id="size"  min="10" max="200" value="10"/>
+        </div>
+
+        <div class="setting">
+          <label for="blur">blur:</label>
+          <input type="range" id="blur" min="0" max="30" value="0">
+        </div>
+
+        <div class="setting">
+          <label for="color">base color:</label>
+          <input type="color" id="color" style="border: none;"/>
+        </div>
+      </div>
+
+      <!-- ************** -->
+      <!------ RESULT ------>
+      <!-- ************** -->
+      <div class="preview-area">
+        <div class="result"></div>
+      </div>
+      
+
+
+    </div>
+  </body>
+</html>
