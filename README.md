@@ -1,4 +1,4 @@
-# [CSS Variables Project Demo 🌀](https://mohammadmahdi-mosleh.github.io/16-CSS-Variables/)
+# [CSS Variables Project Demo 🌀](https://mohammadmahdi-mosleh.github.io/16-CSSVariables/)
 
 About project:
 
